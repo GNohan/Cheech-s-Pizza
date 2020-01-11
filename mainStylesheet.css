@@ -1,0 +1,60 @@
+﻿
+/*
+    General CSS Stylesheet for Cheech's Pizza that pairs with bootstrap
+    Author: Noah Gumm
+    Date: 09/17/2019
+*/
+
+/*Form Style Rules*/
+form {
+    margin-left: 2em;
+    margin-top: 5em;
+    width: 35%;
+    padding: 1em;
+}
+
+label {
+    color: white;
+}
+
+.row {
+    margin-bottom: 1em;
+}
+
+#formBackground {
+    position: absolute;
+    top: 0;
+    bottom: -10em;
+    left: 0;
+    right: 60%;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    z-index: -1;
+}
+
+#submitButton {
+    margin: auto;
+    margin-top: 1em;
+    width: 30%;
+}
+
+small {
+    color: white;
+}
+
+/*General Style Rules*/
+body {
+    background-image: url("Images/pizza.jpg");
+    background-size: 100%;
+}
+
+#receiptDiv {
+    position: absolute;
+    float: left;
+    left: 11em;
+    color: white;
+    text-align: center;
+    z-index: 3;
+}

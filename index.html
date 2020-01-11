@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<!--
+    Author: Noah Gumm
+    Date: 09/17/2019
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheech's Pizza</title>
+    <link rel="stylesheet" type="text/css" href="mainStylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div id="formBackground">
+        <h3>
+            <span style='color: red'>C</span>heech's <span style='color: red'>P</span>izza
+            <br />
+            <small class="text-muted">Best Pizza In Town!</small>
+        </h3>
+    </div>
+    <form>
+        <div class="row">
+            <div class="col">
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" class="form-control" placeholder="First Name" />
+            </div>
+            <div class="col">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" class="form-control" placeholder="Last Name" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="phoneNumber">Phone Number</label>
+                <input id="phoneNumber" type="text" class="form-control" placeholder="Phone Number" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="quantitySelect">Quantity</label>
+                <select id="quantitySelect" class="form-control" name="Quantity"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="pizzaSelect">Pizza Type</label>
+                <select id="pizzaSelect" class="form-control" name="PizzaType"></select>
+                <small>Pizza's cost 9.99 each</small>
+            </div>
+        </div>
+        <div class="row">
+            <input class="input-group" type="button" id="submitButton" value="Order" />
+        </div>
+    </form>
+    <div id="receiptDiv">
+
+    </div>
+    <script src="mainScript.js"></script>
+</body>
+</html>
